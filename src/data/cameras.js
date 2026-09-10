@@ -75,7 +75,7 @@ const ROWS = [
     prices: { newPrice: 3898, usedLow: 2400, usedTypical: 2550, usedHigh: 2700, note: 'Strong used market with prices around $2,400–$2,700.', sources: [] },
     useCases: { macro: 'strong', wildlife: 'ok', street: 'strong', nature: 'strong' },
     verdict: 'The resolution-per-dollar champion. 61 MP in a compact body with the deepest lens ecosystem in mirrorless. The AI autofocus is excellent for everything except the fastest wildlife action, where the non-stacked sensor\'s 10 fps ceiling shows against the Z8 and R5 II\'s 20–30 fps. If Hamp primarily crops and wants the most lens choices at every price point, this is the one.',
-    image: null,
+    image: { src: 'img/a7rv.jpg', alt: 'Sony A7R V front view against a black background', credit: 'Henry Söderlund', license: 'CC-BY 2.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Sony_A7R_V_-_front_view_-_by_Henry_S%C3%B6derlund_(52507424451).jpg' },
     referenceUrl: 'https://www.sony.com/en/interchangeable-lens-cameras/ilce-7rm5',
   },
   // ---------------------------------------------------------------- Nikon Z8
@@ -101,7 +101,7 @@ const ROWS = [
     prices: { newPrice: 3497, usedLow: 2850, usedTypical: 3000, usedHigh: 3150, note: '$3,497 after rebate — the best price-to-performance ratio of any flagship-tier camera.', sources: [] },
     useCases: { macro: 'ok', wildlife: 'strong', street: 'ok', nature: 'strong' },
     verdict: 'The wildlife and action king at a price that undercuts everything else at this tier. 20 fps with an unlimited buffer, outstanding subject detection, and the Z 180-600mm lens make this the strongest wildlife setup here. The tradeoff: 45.7 MP is the lowest resolution in the group, giving Hamp less room to crop than the 60 MP+ options. The EVF is also a step behind Sony and Canon. If wildlife is the priority and cropping comes second, this is the pick. The Z9 is the same camera with a bigger battery and integrated grip for $2,000 more.',
-    image: null,
+    image: { src: 'img/z8.jpg', alt: 'Nikon Z8 mirrorless camera with Nikkor Z lens against a black background', credit: 'Henry Söderlund', license: 'CC-BY 2.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Nikon_Z8_(52956802197).jpg' },
     referenceUrl: 'https://www.nikonusa.com/cameras/mirrorless-cameras/z-8',
   },
   // ---------------------------------------------------------------- Leica SL3
@@ -127,7 +127,7 @@ const ROWS = [
     prices: { newPrice: 7485, usedLow: 5100, usedTypical: 5400, usedHigh: 6200, note: 'The most expensive full-frame body here at $7,485 (up from $6,995 launch MSRP after tariff adjustments). Used from $5,100.', sources: [] },
     useCases: { macro: 'ok', wildlife: 'weak', street: 'ok', nature: 'strong' },
     verdict: 'The camera for someone who values the Leica ecosystem and wants to use M-mount lenses on a modern mirrorless body. 60 MP and IP54 sealing are strong, but the AF system and burst rate lag behind Sony, Nikon, and Canon at roughly double their price. If Hamp already owns or plans to buy Leica glass, the SL3 makes sense; if he\'s starting fresh, the Panasonic S1R II shares the L-mount at half the price.',
-    image: null,
+    image: { src: 'img/sl3.jpg', alt: 'Leica SL3 full-frame mirrorless camera body', credit: 'ScribblingGeek', license: 'CC-BY-SA 4.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Leica_SL3.jpg' },
     referenceUrl: 'https://leica-camera.com/en-US/photography/cameras/sl/sl3-black',
   },
   // ---------------------------------------------------------------- Fujifilm GFX 100S II
@@ -153,7 +153,7 @@ const ROWS = [
     prices: { newPrice: 4999, usedLow: 4000, usedTypical: 4250, usedHigh: 4500, note: 'Very competitive for 102 MP medium format. Used market is thin since the camera is recent.', sources: [] },
     useCases: { macro: 'strong', wildlife: 'weak', street: 'weak', nature: 'strong' },
     verdict: 'The resolution king: 102 MP on a medium format sensor delivers detail and tonal depth that no full-frame camera here can match. Crop to the equivalent of a full-frame field of view and you still have ~61 MP — the same as the uncropped Sony A7R V. For landscape, macro (with the caveat of no 1:1 native lens), and deliberate work, it\'s extraordinary. For wildlife (7 fps, no long telephotos) and street (large body, slower AF), it falls behind. Worth considering if Hamp\'s shooting leans more contemplative than reactive.',
-    image: null,
+    image: { src: 'img/gfx100sii.jpg', alt: 'Fujifilm GFX 100S II medium format mirrorless camera with lens, front view', credit: 'Hirume Ochi', license: 'CC0 1.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Fujifilm_GFX100S_II_25_may_2024a.jpg' },
     referenceUrl: 'https://fujifilm-x.com/global/products/cameras/gfx100s-ii/',
   },
   // ---------------------------------------------------------------- Canon EOS R5 Mark II
@@ -179,7 +179,7 @@ const ROWS = [
     prices: { newPrice: 3799, usedLow: 3200, usedTypical: 3400, usedHigh: 3500, note: '$3,799 after discount, down from $4,299 MSRP. Used/refurbished around $3,400.', sources: [] },
     useCases: { macro: 'strong', wildlife: 'strong', street: 'ok', nature: 'strong' },
     verdict: 'The best all-rounder if you weight macro, wildlife, and versatility equally. 8.5-stop IBIS is a genuine advantage for handheld macro; 30 fps with pre-capture catches decisive wildlife moments; the vari-angle screen makes ground-level and overhead shooting easy. The tradeoff vs the A7R V and SL3 is resolution: 45 MP gives about 25% fewer pixels to crop. The Canon RF lens ecosystem is excellent but has been more expensive than Sony E-mount alternatives — third-party options are now closing that gap.',
-    image: null,
+    image: { src: 'img/r5ii.jpg', alt: 'Canon EOS R5 Mark II front view without body cap, showing the Canon RF lens mount', credit: 'D. Benjamin Miller', license: 'CC0 1.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Canon_EOS_R5_Mark_II_(front,_no_body_cap).jpg' },
     referenceUrl: 'https://www.usa.canon.com/cameras/mirrorless-cameras/eos-r5-mark-ii',
   },
   // ---------------------------------------------------------------- Panasonic Lumix S1R II
@@ -205,7 +205,7 @@ const ROWS = [
     prices: { newPrice: 3000, usedLow: 2479, usedTypical: 2560, usedHigh: 2639, note: '$3,000 after $300 rebate (MSRP $3,300). Already available used around $2,500 — extraordinary value.', sources: [] },
     useCases: { macro: 'ok', wildlife: 'ok', street: 'strong', nature: 'strong' },
     verdict: 'The value bomb. 44 MP, 40 fps, 8K video, phase-detect AF, and 8-stop IBIS for $3,000 is almost absurd. It shares the L-mount with the Leica SL3 at less than half the price, so Hamp gets access to the same Sigma, Panasonic, and Leica lenses either way. The tradeoffs: battery life is poor, the screen is the smallest here, and 44 MP gives less crop room than the 60 MP options. But at this price, you could buy the S1R II and a Sigma 100-400mm f/5-6.3 for less than a Sony A7R V body alone.',
-    image: null,
+    image: { src: 'img/s1rii.jpg', alt: 'Panasonic Lumix S1R II mirrorless camera with lens, front view', credit: 'Hirume Ochi', license: 'CC0 1.0', pageUrl: 'https://commons.wikimedia.org/wiki/File:Panasonic_Lumix_DC-S1RM2_20_apr_2025c.jpg' },
     referenceUrl: 'https://www.panasonic.com/global/consumer/lumix/s/s1r-ii.html',
   },
 ]
