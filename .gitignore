@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.band/
+.DS_Store
